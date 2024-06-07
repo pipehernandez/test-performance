@@ -1,5 +1,8 @@
 # # Get all users
-# GET http://localhost:3000/users
+GET http://localhost:3000/users
+
+# # Cerate a new flight
+POST http://localhost:3000/flights
 
 # # Get a specific user
 # GET http://localhost:3000/users/2

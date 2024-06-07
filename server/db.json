@@ -1,0 +1,49 @@
+{
+  "flights": [
+    {
+      "id": "4c46",
+      "number": "1",
+      "origin": "JFK",
+      "destination": "LAX",
+      "departure": "2024-06-19",
+      "arrival": "2024-06-19",
+      "capacity": 100
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "visitor"
+    }
+  ],
+  "users": [
+    {
+      "id": "a2314",
+      "name": "Andres",
+      "email": "pipehernandez1998@gmail.com",
+      "birthdate": "1998-06-19",
+      "password": "pipe123",
+      "roleId:": 1
+    },
+    {
+      "id": "e302",
+      "name": "andres",
+      "email": "andres@gmail.com",
+      "birthdate": "2024-05-26",
+      "password": "andres123",
+      "roleId": 2
+    }
+  ],
+  "bookings": [
+    {
+      "id": "number",
+      "flightId": "number",
+      "userId": "number",
+      "bookingDate": "date"
+    }
+  ]
+}
